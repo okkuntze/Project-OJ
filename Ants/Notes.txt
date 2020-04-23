@@ -1,10 +1,10 @@
-unity 2019.3.10f1
-
 #include <bits/stdc++.h> 
 using namespace std; 
 
 class sys
-{
+{	
+	public:
+	int NumberOfPlayer = 2; 
 	void start()
 	{
 		string x;
@@ -17,10 +17,17 @@ class sys
 		else { sys.start();
 		}
 
-	void startgame()
-	{
+	void startgame(){
 		// setup first game state
-	}		
+		// option default or set
+		Map.createMap();
+	}
+	void GetNumberOfPlayer(){
+		cout << "Choose the amount of Players" << endl;
+		cin >> NumberOfPlayer >> endl;
+		sys.SetNumberOfPlayer(NumberOfPlayer);
+	}
+	void SetNumberOfPlayer(int = 2)
 };
 
 
@@ -40,8 +47,20 @@ class Resource
 
 class Map
 {
-	private dimension;
-};
+	private:
+	Dimesnion;
+	void create_map(){
+		auto Dimension = Map.SetDimensions();
+		auto Player = 
+	}
+
+	auto SetDimensions(int = 20){	
+		auto D;	
+		cout << "Set the size of the world" << endl;
+		cout << "Dimension:  " <<;
+		cin >> D >> endl; // check if number
+		return D;
+	};
 
 class units
 {
