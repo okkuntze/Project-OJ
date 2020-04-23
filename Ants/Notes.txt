@@ -1,0 +1,52 @@
+unity 2019.3.10f1
+
+#include <bits/stdc++.h> 
+using namespace std; 
+
+class sys
+{
+	void start()
+	{
+		string x;
+		cout << "Hello" << endl;
+		cout << " Do you want to start? [Y/N]" << endl;
+		cin >> x;
+		if (x == Y || x == y):
+			{	sys.startgame(); 
+			}
+		else { sys.start();
+		}
+
+	void startgame()
+	{
+		// setup first game state
+	}		
+};
+
+
+class Ants
+{ 
+    private:
+    public: 
+}; 
+
+class Ameisenbau
+{
+};
+
+class Resource
+{
+};
+
+class Map
+{
+	private dimension;
+};
+
+class units
+{
+};
+
+int main() {
+sys.start();
+}
