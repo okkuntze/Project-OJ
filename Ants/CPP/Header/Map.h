@@ -12,8 +12,8 @@ using std::vector
 class Map {
 
 private:
-	auto Map_Height;
-	auto Map_Width;
+	int Map_Height;
+	int Map_Width;
 	std::vector<std::vector<Tile.Tile>> Map_Matrix;
 
 public:
