@@ -1,0 +1,10 @@
+//
+//
+//MapGenerator.h
+//
+//
+
+
+class MapGenerator {
+
+};

@@ -1,0 +1,11 @@
+//
+//
+// GameSettings.h
+//
+//
+
+
+
+class Settings {
+
+};
